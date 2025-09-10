@@ -1,0 +1,131 @@
+.info{
+    text-align:initial;
+    padding:10px;
+}
+.navigation{
+    padding: 15px;
+      box-shadow: 0px 0px 3px 3px rgb(46, 44, 44);
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-around;
+    background:linear-gradient(to left,rgb(77, 243, 188),rgb(249, 246, 150),rgb(231, 180, 235));
+    a{
+    text-decoration: none;
+} 
+}
+img{
+        border-bottom: 3px solid rgb(53, 49, 49);
+        border-right: 3px solid rgb(53, 49, 49);
+        background-color: white;
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        object-fit:fill;
+    }
+ .java,.c,.python,.html,.css,.js,.mysql,.mongodb {
+    padding: 5px;
+    margin: 20px;
+    justify-items: center;
+    background-color: rgb(77, 243, 188);
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px rgb(46, 44, 44);
+ }
+ .images{
+    display: flex;
+    flex-wrap:wrap;
+ }
+ .skills images{
+    width:25%;
+    justify-content:space-around;
+ }
+h1{
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: 3px solid rgb(53, 49, 49);
+    background:linear-gradient(to left,rgb(77, 243, 188),rgb(249, 246, 150),rgb(231, 180, 235));
+}
+#about1{
+     box-shadow: 0px 0px 3px 3px rgb(46, 44, 44);
+     padding: 10px;
+    .flex{
+        display:flex;
+        font-size: large;
+        justify-content: space-around;
+        border-radius: 20px;
+        background-color: rgb(249, 246, 150);
+    } 
+}
+#skills1{
+    box-shadow: 0px 0px 3px 3px rgb(46, 44, 44);
+    padding: 10px;
+ }
+#contact1{
+    box-shadow: 0px 0px 3px 3px rgb(46, 44, 44);
+    padding: 10px;
+    border-radius: 20px;
+}
+#projects{
+    box-shadow: 0px 0px 3px 3px rgb(46, 44, 44);
+    padding: 10px;
+    border-radius: 20px;
+}
+.pro{
+     display: flex;
+     justify-content: center;
+}
+.portfolio,.homepage,.web{
+    padding: 5px;
+    margin: 20px;
+    justify-items: center;
+    background-color:rgb(231, 180, 235)  ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px rgb(46, 44, 44);
+
+}
+#about1,#skills1,#projects{
+    border-radius: 20px;
+}
+.footer{
+    background-color:rgb(228, 226, 226);
+    border-radius: 20px;
+}
+form{
+     
+    background-color: rgb(232, 232, 185);
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px rgb(46, 44, 44);
+}
+textarea{
+    resize: none;
+    border-radius: 20px;
+}
+button{
+    
+    word-spacing: 0.5px;
+}
+a:hover{
+    box-shadow: 0px 0px 3px 3px rgb(46, 44, 44);
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+img:hover{
+    box-shadow: 0px 0px 3px 3px rgb(46, 44, 44);
+    border-radius: 20px;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    box-shadow: 0px 0px 3px 3px rgb(105, 104, 104);
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+ 
+
